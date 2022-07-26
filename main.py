@@ -51,8 +51,8 @@ val_rec, val_shap = load_rec_and_shap(config, "val", partitions=False)
 
 
 def run_neptune():
-    run = neptune.init(project="shap/reduce-false-positive",
-                       api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIzYTk5MWJjZS1hMjg4LTQzZGUtYTFhOC0zNDMzYjdmZGIzM2EifQ==",
+    run = neptune.init(project="",
+                       api_token="",
     )  # your credentials
     return run
 # run['dataset'] = dataset
